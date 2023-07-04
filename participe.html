@@ -31,34 +31,24 @@
     <p>Tu as des photos de cours <b>de bonne qualité</b> ou <b>réécrits à l'ordinateur</b>
         ?Tu souhaites avoir un espace pour ta classe ou ton option?
         Rempli le formulaire si dessous !</p>
-    
-        <div class="book">
-        <form action="mailto:timeosoeur@gmail.com" method="post">
+    <div class="form">
+        <form action="https://formsubmit.co/quirinhub@gmail.com" method="POST">
             <ul>
-                <p>Choissisez l'emplacment</p>
+                <p>Choissisez l'emplacment :</p>
                 <li>
-                    <p>Classe<input type="radio" name="classe-option" value="classe" checked></p>
+                    <p><h3>Classe</h3><input type="radio" name="classe-option" value="classe" checked></p>
                 </li>
                 <li>
-                    <p>Option<input type="radio" name="classe-option" value="option"></p>
+                    <p><h3>Option</h3><input type="radio" name="classe-option" value="option"></p>
                 </li>
             </ul>
-            <p>Spécification : <input type="text" name="Classe" value="5 GTA"></p>
-            <p>Téléchargez le pdf ici : <input type="file" name="pdf"></p>
-            <p><input type="submit" value="Envoyer !">test</p>
+            <p><h3>Nom de la classe :</h3><input type="text" name="Classe" size="23px"
+                    placeholder="Écrivez ici le nom de la classe..." value="5 GTA"></p>
+            <p class="textarea"><h3>Entrez le texte ici :</h3><textarea name="textarea" cols="30" rows="10"></textarea></p>
+            <p><h3>Votre nom (optionnel) :</h3><input type="text" name="name" placeholder="Entrez ici votre nom..."></p>
+            <p><input type="submit" value="Envoyer !"></p>
         </form>
-        <div class="cover">
-            <p>Ajouter un contenu</p>
-        </div>
     </div>
-
-    <div class="book">
-        <p>Hello</p>
-        <div class="cover">
-            <p>Hover Me</p>
-        </div>
-    </div>
-
 
 </body>
 <script>function copierTexte() {
